@@ -39,6 +39,7 @@ PREFIX=!
 7. Select bot permissions:
    - Manage Roles
    - Manage Messages
+   - Manage Channels
    - Send Messages
    - Embed Links
    - Read Message History
@@ -61,6 +62,8 @@ npm start
 | `!deleteroles` | Administrator | Delete all removable roles (with confirmation) |
 | `!confirmdelete` | The user who ran `!deleteroles` | Confirm the role deletion |
 | `!purge <amount>` | Manage Messages | Delete 1–100 messages from the channel |
+| `!lock [chat|vc]` | Manage Channels | Lock the current chat, or your connected voice channel with `vc` |
+| `!unlock [chat|vc]` | Manage Channels | Unlock the current chat, or your connected voice channel with `vc` |
 | `!ann <message>` | Administrator or Manage Server | Post a formatted announcement embed |
 | `!selfroles` | Administrator | Open a menu to publish a multi-role self-role picker |
 
@@ -68,6 +71,7 @@ npm start
 
 - Manage Roles
 - Manage Messages
+- Manage Channels
 - Send Messages
 - Embed Links
 - Read Message History
