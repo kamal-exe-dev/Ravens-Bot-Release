@@ -1,0 +1,18 @@
+{
+  "name": "discord-role-bot",
+  "version": "1.0.0",
+  "description": "FiveM community Discord role-management bot",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "node --test",
+    "release": "powershell -NoProfile -ExecutionPolicy Bypass -File scripts/create-release.ps1"
+  },
+  "dependencies": {
+    "@anthropic-ai/bedrock-sdk": "^0.34.0",
+    "@anthropic-ai/sdk": "^0.129.0",
+    "@google/generative-ai": "^0.24.1",
+    "discord.js": "^14.16.3",
+    "dotenv": "^16.4.7"
+  }
+}
